@@ -49,11 +49,11 @@ img {
 .main-wrapper {
   width: 1120px;
   height: 580px;
-
   position: relative;
   margin: 0 auto;
   box-shadow: 5px 5px 10px rgba(169, 169, 169, 1);
   overflow: hidden;
+  background-color: #fff;
 }
 /* HEADER */
 .header {
@@ -145,4 +145,38 @@ img {
   width: 30px;
   height: 30px;
   margin-right: 5px;
+}
+
+/* //////////// */
+.section--teamwork {
+  width: 100%;
+  min-width: 1028px;
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 26px;
+}
+.bg-image > .teamwork-bg-image {
+  position: absolute;
+  top: 0px;
+  right: -16px;
+}
+.section--teamwork > .main-wrapper > .main > .summary > .btn__learn-more {
+  background-color: #b3eaff;
+}
+.main .summary .btn__get-start {
+  display: inline-block;
+  background-color: #b3eaff;
+  padding: 6px;
+  font-size: 12px;
+  font-weight: 800;
+  margin-left: 26px;
+  margin-top: 12px;
+  border-radius: 10px;
+}
+#teamwork {
+  padding: 0 0 0 0;
 }

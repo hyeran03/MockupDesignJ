@@ -6,13 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>mockupPage(1)</title>
 
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+
   </head>
   <body>
     <div class="body__container">
-      <div class="section--communication">
-        <div class="bg-image">
+     
+       
+      <div class="section--communication mySlides">
+        <div class="bg-image  w3-animate-fading">
           <div class="bg-image-up">
             <img src="img/bgUpIMG.png" alt="" />
           </div>
@@ -40,7 +46,7 @@
             </div>
           </div>
 
-          <div class="main">
+          <div class="main  w3-animate-fading">
             <div class="summary">
               <h2 class="summary__title">Communication</h2>
               <p class="summary__description">
@@ -64,7 +70,7 @@
             </ul>
           </div>
 
-         <div class="bg-image">
+         <div class="bg-image  w3-animate-fading">
            <div class="bg-image-up">
              <img src="img/bgUpIMG.png" alt="" />
            </div>
@@ -74,6 +80,90 @@
          </div>
         </div>
       </div>
+        
+
+      
+      <div class="section--teamwork mySlides">
+              <div class="bg-image  w3-animate-fading">
+                <div class="teamwork-bg-image">
+                  <img src="img/teamwork_bg_img.png" alt="" />
+                </div>
+            
+              </div>
+            
+              <div class="main-wrapper">
+                <div class="header">
+                  <div class="inner">
+                    <div class="home">
+                      <span>
+                        <a href="#">Home</a>
+                      </span>
+                    </div>
+                    <div>
+                      <ul class="main-menu">
+                        <li><a href="#">Blog</a></li class="item">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="main  w3-animate-fading">
+                  <div class="summary">
+                    <h2 class="summary__title">Teamwork&nbsp;is&nbsp;key</h2>
+                    <p class="summary__description">
+                      Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor.
+                    </p>
+                    <div class="btn__learn-more">
+                      <a href="#">Learn More</a>
+                    </div>
+                    <div class="btn__get-start">
+                      <a href="#">Get Start</a>
+                    </div>
+                  </div>
+                  <div id="teamwork" class="visual">
+                    <img src="img/teamwork.png" alt="">
+                  </div>
+                </div>
+            
+                <div class="site-links">
+                  <ul>
+                    <li><a href=""><img src="img/Linkedin.png" alt=""></a></li>
+                    <li><a href=""><img src="img/Facebook.png" alt=""></a></li>
+                    <li><a href=""><img src="img/Twitter.png" alt=""></a></li>
+                    <li><a href=""><img src="img/Pinterest.png" alt=""></a></li>
+                  </ul>
+                </div>
+            
+                <div class="bg-image  w3-animate-fading">
+                  <div class="teamwork-bg-image">
+                    <img src="img/teamwork_bg_img.png" alt="" />
+                  </div>
+            
+                </div>
+              </div>
+      </div>
+        
+
     </div>
+
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) { myIndex = 1 }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 9000);
+      }
+    </script>
   </body>
 </html>
