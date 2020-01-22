@@ -29,7 +29,6 @@
 .header .main-menu li {
   margin-bottom: 16px;
 }
-
 .main {
   position: absolute;
   width: 75%;
@@ -47,6 +46,8 @@
 }
 .main .summary .summary__title {
   margin-left: 0;
+  font-size: 24px;
+  font-weight: 400;
 }
 .main .summary .summary__description {
   text-align: right;
@@ -55,73 +56,14 @@
 .main .visual {
   padding: 16px 0;
 }
+.main .summary .btn__learn-more {
+  border: 1px solid #4a5d8b;
+}
 .section--teamwork > .main-wrapper > .main > .summary > .btn__learn-more {
+  border: 1px solid #4a5d8b;
   background-color: #fff;
 }
 .main .summary .btn__get-start {
+  border: 1px solid #4a5d8b;
   background-color: #fff;
 }
-
-/* .bg-image {
-  width: 100%;
-  max-width: 768px;
-}
-.bg-image .bg-image-up {
-  width: 60%;
-}
-.bg-image .bg-image-down {
-  width: 60%;
-}
-
-.main-wrapper {
-  height: 90vh;
-}
-.header {
-  width: 25%;
-  height: 100%;
-  text-shadow: 0 1px 1px rgba(50, 50, 93, 0.25);
-}
-.header .inner {
-  display: inline-block;
-}
-.header .inner .home {
-  margin-bottom: 32px;
-}
-.header .main-menu {
-  display: inline-block;
-  width: 100%;
-}
-.header .main-menu li {
-  margin-bottom: 16px;
-}
-.main {
-  position: absolute;
-  width: 75%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  flex-direction: column;
-  align-items: center;
-}
-.main .summary {
-  padding: 16px 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-.main .summary .summary__title {
-  margin-left: 0;
-}
-.main .summary .summary__description {
-  text-align: right;
-  padding: 0 0;
-}
-.main .visual {
-  padding: 16px 0;
-}
-.section--teamwork > .main-wrapper > .main > .summary > .btn__learn-more {
-  background-color: #fff;
-}
-.main .summary .btn__get-start {
-  background-color: #fff;
-} */
