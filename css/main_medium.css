@@ -1,14 +1,4 @@
-.bg-image {
-  width: 100%;
-  max-width: 1024px;
-}
-.bg-image .bg-image-up {
-  width: 50%;
-}
-.bg-image .bg-image-down {
-  width: 50%;
-}
-
+/* COMMON */
 .main-wrapper {
   width: 90%;
   margin: 0 auto;
@@ -25,7 +15,35 @@
   margin: 0 auto;
   flex-grow: 1;
 }
+.bg-image {
+  width: 100%;
+  max-width: 1024px;
+}
 
-.main .visual > img {
+/* SECTION COMMUNICATION */
+.section--communication .bg-image {
+  width: 100%;
+  max-width: 1024px;
+}
+.section--communication .bg-image .bg-image-up {
+  width: 50%;
+}
+.section--communication .bg-image .bg-image-down {
+  width: 50%;
+}
+.section--communication .main-wrapper .main .visual > img {
+  padding: 8% 0;
+}
+
+/* SECTION TEAMWORK */
+.section--teamwork > .main-wrapper > .bg-image > .teamwork-bg-image {
+  width: 100%;
+  height: 100%;
+}
+.section--teamwork > .main-wrapper > .bg-image > .teamwork-bg-image > img {
+  width: 100%;
+  height: 100%;
+}
+#teamwork {
   padding: 8% 0;
 }

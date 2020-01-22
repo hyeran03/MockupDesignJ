@@ -26,7 +26,6 @@ img {
 .bg-image .bg-image-up {
   width: 536px;
   height: 326px;
-
   position: absolute;
   top: 0;
   right: 0;
@@ -54,6 +53,7 @@ img {
   overflow: hidden;
   background-color: #fff;
 }
+
 /* HEADER */
 .header {
   position: relative;
@@ -71,7 +71,6 @@ img {
   justify-content: space-between;
   z-index: 1;
 }
-
 .header .main-menu {
   display: flex;
   width: 480px;
@@ -89,7 +88,6 @@ img {
   z-index: 1;
   display: flex;
   justify-content: space-around;
-
   padding: 40px 0;
 }
 .main .summary {
@@ -151,10 +149,9 @@ img {
   margin-right: 5px;
 }
 
-/* //////////// */
+/* SECTION TEAMWORK */
 .section--teamwork {
   width: 100%;
-  min-width: 1028px;
   height: 100%;
   min-height: 100vh;
   position: relative;
@@ -163,10 +160,17 @@ img {
   margin: 0 auto;
   padding-top: 26px;
 }
-.bg-image > .teamwork-bg-image {
+.section--teamwork .bg-image > .teamwork-bg-image {
   position: absolute;
   top: 0px;
-  right: -16px;
+}
+.section--teamwork > .bg-image > .teamwork-bg-image {
+  width: 100%;
+  height: 100%;
+}
+.section--teamwork > .bg-image > .teamwork-bg-image > img {
+  width: 100%;
+  height: 100%;
 }
 .section--teamwork > .main-wrapper > .main > .summary > .btn__learn-more {
   background-color: #b3eaff;
